@@ -540,3 +540,14 @@ div#not-found-message {
   border-color: transparent;
   background-color: transparent;
 }
+
+.list-item .img-wrap {
+  width: 72px;
+  height: 72px;
+  margin: auto;
+  margin-bottom: 8px;
+}
+
+.list-item .name-wrap h4{
+    word-break: break-all;
+}

@@ -38,7 +38,7 @@ function displayPokemon(pokemon)
         listItem.className = "list-item";
         listItem.innerHTML = `
             <div class="number-wrap">
-                <p class="caption_fonts">#${pokemonID}</p>
+                <p class="caption-fonts">#${pokemonID}</p>
             </div>
             <div class="img-wrap">
                 <img src="https://raw.githubusercontent.com/pokeapi/sprites/master/sprites/pokemon/other/dream-world/${pokemonID}.svg" alt="${pokemon.name}"/>
